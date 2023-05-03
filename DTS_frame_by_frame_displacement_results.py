@@ -36,6 +36,7 @@ C0494_frame_by_frame_distance_array = [
     54.85,54.5,54.2,53.95,53.6,53.25,52.95,52.6,52.3,52,51.7,51.4,51.1,50.8,50.5,50.1,49.9
 ]
 
+#   Converting these python lists to .csv so they can be used in excel etc
 import csv
 
 with open("C0494.csv", mode = 'w', newline = "") as file:
